@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual envs
+.env
+.venv/
+venv/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Project-specific
+responses/
+all_pickup_points.json
+cities_top_100.json
+
+# Logs
+*.log
+
+# Mac & Windows OS files
+.DS_Store
+Thumbs.db
+desktop.ini
