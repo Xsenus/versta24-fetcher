@@ -17,7 +17,6 @@ venv/
 # Project-specific
 responses/
 all_pickup_points.json
-cities_top_100.json
 
 # Logs
 *.log
