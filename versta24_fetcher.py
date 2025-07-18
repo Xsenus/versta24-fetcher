@@ -16,7 +16,7 @@ HEADERS = {
     "Authorization": f"apiKey {API_KEY}",
     "Accept": "application/json"
 }
-CITIES_FILE = "cities_top_100.json"
+CITIES_FILE = "used_cities.json"
 RESPONSES_DIR = "responses"
 os.makedirs(RESPONSES_DIR, exist_ok=True)
 
@@ -44,7 +44,7 @@ for city in cities:
     except Exception as e:
         print(f"❌ Ошибка при запросе {city}: {e}")
     
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 # Шаг 4: Сбор всех ответов в один JSON
 combined = {}
